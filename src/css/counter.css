@@ -1,4 +1,9 @@
 .count-divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.count-div {
   display: inline-block;
   border-radius: 1rem;
   border: 2px solid;
@@ -10,4 +15,6 @@
   display: inline-block;
   border: 2px solid;
   border-radius: 1rem;
+  cursor: pointer;
+  user-select: none;
 }

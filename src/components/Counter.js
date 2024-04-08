@@ -2,20 +2,19 @@ import "../css/counter.css";
 import { useState } from "react";
 export default function Counter() {
   /* Counter */
-  const [count, setCount] = useState(localStorage.getItem("counter") || 0);
-  let newCount;
+  const [count, setCount] = useState(sessionStorage.getItem("counter") || 0);
   function Counting() {
-    newCount = parseInt(count) + 1;
+    const newCount = parseInt(count) + 1;
     setCount(newCount);
-    localStorage.setItem("counter", newCount);
+    sessionStorage.setItem("counter", newCount);
   }
   function Clear() {
-    localStorage.clear();
+    sessionStorage.clear();
     setCount(0);
   }
   return (
-    <div>
-      <div className="count-divs" onClick={() => Counting()}>
+    <div className="count-divs">
+      <div className="count-div" onClick={() => Counting()}>
         Count {count}
       </div>
       <div className="clear" onClick={() => Clear()}>
