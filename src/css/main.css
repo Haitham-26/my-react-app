@@ -1,0 +1,44 @@
+main {
+  background-color: antiquewhite;
+}
+main div {
+  padding: 30px;
+}
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.d-block {
+  display: block;
+}
+label {
+  font-size: 25px;
+}
+input {
+  padding: 5px 2rem;
+}
+.form {
+  border: 2px solid black;
+  padding: 10px;
+}
+.d-i {
+  display: inline-block;
+  color: rgb(255, 0, 0);
+}
+.sbmt {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+
+  padding: 10px;
+}
+.result {
+  display: in;
+}
+.names-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

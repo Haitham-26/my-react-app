@@ -1,0 +1,35 @@
+footer {
+  padding: 2rem;
+  background-color: rgb(85, 12, 12);
+}
+.footer-logo {
+  margin: auto;
+  width: 200px;
+}
+.footer-logo-100 {
+  width: 100%;
+  border-radius: 50%;
+}
+span {
+  display: block;
+  font-size: 1.5rem;
+  padding: 5px 0;
+}
+.light {
+  color: lightgray;
+}
+a {
+  color: lightgray;
+}
+h2 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.lnks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.lnks-sec {
+  margin-top: 2rem;
+}

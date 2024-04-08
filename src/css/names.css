@@ -1,0 +1,12 @@
+.names-span {
+  font-size: inherit;
+  display: inline;
+  color: bisque;
+}
+
+.names-par {
+  background-color: brown;
+  padding: 20px;
+  font-size: larger;
+  color: white;
+}

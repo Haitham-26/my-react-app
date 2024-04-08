@@ -1,0 +1,45 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(85, 12, 12, 0.7);
+}
+header div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.logo-div {
+  width: 100px;
+}
+.logo {
+  width: 100%;
+  border-radius: 50%;
+}
+nav {
+  display: block;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 2rem;
+  font-size: 20px;
+}
+li:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
